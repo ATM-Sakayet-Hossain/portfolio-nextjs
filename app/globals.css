@@ -2,7 +2,6 @@
 
 @utility container {
   margin: auto;
-  /* padding-inline: 2rem; */
 }
 @theme {
   --color-brand: blue;

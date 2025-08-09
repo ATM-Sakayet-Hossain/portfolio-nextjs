@@ -14,24 +14,26 @@ const Banner = () => {
             </h6>
             <h1 className="text-5xl font-bold py-5 lg:text-7xl">
               I'm Sakayet a Creative
-              <span className="block text-[#65a8f0] pt-5">Developer & IT Expert</span>
+              <span className="block text-[#65a8f0] pt-5">
+                Developer & IT Expert
+              </span>
             </h1>
-            <p className="text-[14px] font-normal text-justify md:w-130 lg:w-200 lg:text-2xl">
+            <p className="text-[14px] font-normal text-justify lg:text-2xl">
               I design and develop services for customers of all sizes,
               specializing in creating stylish, modern websites, web services
               and online stores. My passion is to design digital user
               experiences through the bold interface and meaningful
               interactions.
             </p>
-            <div className="flex items-center gap-15 justify-center py-5 md:justify-start md:px-10 lg:py-15">
-              <div>
+            <div className="flex items-center gap-10 py-5 px-2 md:justify-start md:px-10 lg:py-15">
+              <div className="">
                 <h2 className="text-5xl font-bold text-center">10+</h2>
                 <p className="flex flex-col text-center text-gray-500">
                   <span>YEARS</span>
                   <span>OF EXPERIENCE</span>
                 </p>
               </div>
-              <span className=" broder-1"></span>
+              <span className="md:w-1 md:h-20 md:border-r md:border-gray-400"> </span>
               <div>
                 <h2 className="text-5xl font-bold text-center">296+</h2>
                 <p className="flex flex-col text-center text-gray-500">
