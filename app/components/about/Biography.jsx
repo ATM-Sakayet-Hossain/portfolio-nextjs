@@ -6,16 +6,7 @@ const Biography = () => {
   return (
     <section className="pt-10 px-2" href="/about">
       <div className="container">
-        <div className="md:flex lg:px-5">
-          <div className="md:w-1/2 flex items-center justify-center">
-            <Image
-              src="/F-15075.jpg"
-              width={600}
-              height={600}
-              alt="PP picture"
-              className="w-50 text-center rounded-full flex items-center justify-center"
-            />
-          </div>
+        <div className="md:flex lg:px-5 gap-20">
           <div className="md:w-1/2">
             <div>
               <h2 className="text-2xl underline font-bold uppercase text-blue-800 py-5">
@@ -59,6 +50,8 @@ const Biography = () => {
                 />
               </div>
             </div>
+          </div>
+          <div className="md:w-1/2">
             <div>
               <h2 className="text-2xl underline font-bold uppercase text-blue-800 py-5">
                 Experience
@@ -68,11 +61,6 @@ const Biography = () => {
                   title="Data Analyst (Work from Home)"
                   subTitle="Intelligent Image Management Ltd."
                   year="Feb 2025 - Jul 2025"
-                />
-                <EduCom
-                  title="Sub-Assistant Engineer-IT"
-                  subTitle="Shaheed Monsur Ali Medical College"
-                  year="Oct 2021 - Nov 2024"
                 />
                 <EduCom
                   title="Sub-Assistant Engineer-IT"
@@ -93,7 +81,7 @@ const Biography = () => {
               <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="pt-4">
                   <h2 className="text-2xl font-bold">Competences</h2>
-                  <ul>
+                  <ul className="grid grid-cols-2">
                     <li className="font-base text-gray-400">HTML</li>
                     <li className="font-base text-gray-400">CSS</li>
                     <li className="font-base text-gray-400">Bootstrap</li>
@@ -105,7 +93,7 @@ const Biography = () => {
                 </div>
                 <div className="pt-4">
                   <h2 className="text-2xl font-bold">Tools</h2>
-                  <ul>
+                  <ul className="grid grid-cols-2">
                     <li className="font-base text-gray-400">Figma</li>
                     <li className="font-base text-gray-400">VS Code</li>
                     <li className="font-base text-gray-400">Git & GitHub</li>

@@ -1,11 +1,11 @@
 import Banner from "./components/home/Banner";
-import Biography from "./components/home/Biography";
+import Skill from "./components/home/Skill";
 
 export default function Home() {
   return (
     <>
     <Banner />
-    <Biography />
+    <Skill />
     </>
   );
 }

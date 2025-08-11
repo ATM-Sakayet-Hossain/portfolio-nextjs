@@ -35,7 +35,7 @@ const Banner = () => {
               </div>
               <span className="md:w-1 md:h-20 md:border-r md:border-gray-400"> </span>
               <div>
-                <h2 className="text-5xl font-bold text-center">296+</h2>
+                <h2 className="text-5xl font-bold text-center">7+</h2>
                 <p className="flex flex-col text-center text-gray-500">
                   <span>PROJECTS</span> <span>COMPLETED</span>
                 </p>
